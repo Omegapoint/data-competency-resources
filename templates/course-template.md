@@ -26,6 +26,10 @@ Skriv mål som går att bedöma, till exempel definiera, bygga, testa, förklara
 
 Beskriv vad som inte ingår och vad som tas upp i andra kurser.
 
+## Koppling till data governance
+
+Ange vilka roller, regler eller beslut kursen övar och vad den lägger till i vår [governance brief](governance-brief-template.md). Beskriv hur APP visar tillämpning och när frågor ska eskaleras. Skilj dokumenterade krav från testade kontroller och ange vad som inte ingår.
+
 ## Praktiskt arbete
 
 Beskriv business scenario, input data, uppgift, förväntat resultat och koppling till vårt gemensamma case. Skilj preliminära assumptions från överenskomna requirements.

@@ -36,8 +36,8 @@ Boken ger en överblick av data engineering: source systems, ingestion, storage,
 
 Boken visar hur SQL kan besvara analysfrågor, bland annat med time series analysis och cohort analysis. Den kopplar queries till vad analysen ska visa.
 
-- **Användning:** SQL-stöd i kurs 03. Hjälper traineerna att skriva queries från metric definitions och analytical models i kurs 04–05.
-- **Lästeman:** data transformation, aggregation, window functions och jämförelser över tid. Anpassa uppgifterna till traineernas SQL-nivå.
+- **Användning:** SQL-stöd i kurs 03. Hjälper APP att skriva queries från metric definitions och analytical models i kurs 04–05.
+- **Lästeman:** data transformation, aggregation, window functions och jämförelser över tid. Anpassa uppgifterna till APP:s SQL-nivå.
 - **Begränsning:** ersätter inte SQL-grunder för nybörjare, Python, testning eller pålitliga data pipelines. Anpassa SQL dialect och funktioner till labbmiljön.
 - **Bokinformation:** [O'Reilly](https://www.oreilly.com/library/view/sql-for-data/9781492088776/).
 
@@ -95,7 +95,7 @@ Boken introducerar key-value, document, column-family och graph databases. Den t
 
 | Kurs | Fundamentals of Data Engineering | The Data Warehouse Toolkit | Designing Data-Intensive Applications | NoSQL Distilled |
 | --- | --- | --- | --- | --- |
-| [01: Database Foundations](../courses/01-database-foundations/README.md) | Direkt stöd: source systems, storage och rollen som data engineer | Indirekt stöd: operational kontra analytical model | Direkt stöd: data models, storage och transactions; välj enkla delar | Direkt stöd: valbar breddning till non-relational models |
+| [01: Data Fundamentals](../courses/01-data-fundamentals/README.md) | Direkt stöd: lifecycle, source systems, storage, data quality och governance | Indirekt stöd: operational kontra analytical model | Direkt stöd: data models, storage och transactions; välj enkla delar | Direkt stöd: valbar breddning till non-relational models |
 | [02: Business 101](../courses/02-business-101/README.md) | Indirekt stöd: business needs och användare | Indirekt stöd: business processes och samarbete med stakeholders | Begränsat stöd för value chains och KPI trees | Begränsat stöd för kursens business objectives |
 | [03: SQL + Python for DE](../courses/03-sql-python-for-de/README.md) | Direkt stöd: ingestion, transformation och pålitliga data pipelines | Direkt stöd: ETL och loading av dimensional models | Direkt stöd: principer för batch och stream processing; fördjupning | Indirekt stöd: data models och schema migrations |
 | [04: Business 102](../courses/04-business-102/README.md) | Indirekt stöd: från business needs till requirements | Direkt stöd: grain, facts och measure additivity | Indirekt stöd: trade-offs kring reliability och consistency | Indirekt stöd: requirements för access patterns och consistency |
@@ -106,7 +106,7 @@ SQL och kommunikation får mer direkt stöd av dessa två böcker:
 
 | Kurs | SQL for Data Analysis | Storytelling with Data |
 | --- | --- | --- |
-| [01: Database Foundations](../courses/01-database-foundations/README.md) | Direkt stöd: SQL queries efter introduktionen | Begränsat stöd för databasgrunder |
+| [01: Data Fundamentals](../courses/01-data-fundamentals/README.md) | Direkt stöd: SQL queries efter introduktionen | Begränsat stöd för data fundamentals |
 | [02: Business 101](../courses/02-business-101/README.md) | Indirekt stöd: göra business questions möjliga att analysera | Indirekt stöd: målgrupp, context och budskap |
 | [03: SQL + Python for DE](../courses/03-sql-python-for-de/README.md) | Direkt stöd: transformation, aggregation och analytical SQL; inte Python | Indirekt stöd: förklara analysresultat |
 | [04: Business 102](../courses/04-business-102/README.md) | Direkt stöd: från metric definitions till queries; ersätter inte requirements eller SLA | Indirekt stöd: klargöra frågan och användningen |
@@ -119,7 +119,7 @@ Ingen bok täcker hela business-spåret: value chains, KPI trees, metric definit
 
 | När | Läsning | Kort aktivitet i vårt retail case |
 | --- | --- | --- |
-| Inledning och kurs 01 | Valda delar av Fundamentals of Data Engineering; NoSQL Distilled om den behålls | Rita datans väg från orderkälla till beslut. Motivera en första storage model. |
+| Inledning och kurs 01 | Valda delar av Fundamentals of Data Engineering; NoSQL Distilled om den behålls | Rita datans väg från orderkälla till beslut. Motivera storage och beskriv data quality-problem, deras följder och data owner. |
 | Kurs 03 | SQL for Data Analysis om transformation och analys; Fundamentals of Data Engineering om ingestion; valda principer ur Designing Data-Intensive Applications | Beräkna en metric med SQL. Förklara hur koden hanterar duplicates och omkörningar. Visa det med tester. |
 | Kurs 04–05 | The Data Warehouse Toolkit om grain, facts, dimensions och history handling | Granska en metric definition, välj fact grain och visa varför en join inte ger double counting. |
 | Kurs 06 | Storytelling with Data om målgrupp, chart selection och narrative | Förbättra en presentation av vårt retail case. Motivera ändringarna utan att dölja uncertainty, risker eller assumptions. |

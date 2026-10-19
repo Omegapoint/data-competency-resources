@@ -51,13 +51,15 @@ Enligt [Microsofts studieguide för DP-750](https://learn.microsoft.com/en-us/cr
 
 **Behöver läggas till:** Spark/PySpark och Delta tables; compute; Unity Catalog och access control; identities och secrets; Lakeflow Connect, Auto Loader och streaming ingestion; Lakeflow Spark Declarative Pipelines och Jobs; deployment med Declarative Automation Bundles; monitoring, troubleshooting samt performance och cost optimization.
 
+Grundprogrammets [governance-spår](shared-case-and-assessment.md#governance-genom-hela-caset) ger roller, regler, metadata, lineage och enkla access-tester. Det ersätter inte implementation av Unity Catalog, plattformsspecifika policies, audit logging eller automatiserad retention i Databricks.
+
 ## Koppling till de sex kurserna
 
 **Direkt grund** betyder att kursen tar upp sådant som återkommer i provet, inte att hela området täcks. **Indirekt stöd** ger sammanhang men ersätter inte provförberedelser.
 
 | Kurs | DP-900 | DP-750 |
 | --- | --- | --- |
-| [01: Database Foundations](../courses/01-database-foundations/README.md) | Direkt grund: relationships, normalization, SQL och database objects. Lägg till non-relational data och Azure-tjänster. | Direkt grund: tabeller, data types och integrity. Lägg till Delta, Unity Catalog och praktisk användning i Databricks. |
+| [01: Data Fundamentals](../courses/01-data-fundamentals/README.md) | Direkt grund: data concepts, file formats, relational och non-relational storage, workloads och enkel SQL. Lägg till Azure-tjänster och mer om analytics. | Direkt grund: data types, integrity, data quality, ownership och lineage. Lägg till Delta, Unity Catalog och praktisk användning i Databricks. |
 | [02: Business 101](../courses/02-business-101/README.md) | Indirekt stöd: use cases och roller. Value chains och KPI trees är inte egna provområden. | Indirekt stöd: business needs bakom lösningen. Business understanding är inget eget provområde. |
 | [03: SQL + Python for DE](../courses/03-sql-python-for-de/README.md) | Direkt grund: SQL och data processing. Python-delen går längre än provets begreppsnivå. | Direkt grund: transformations, ingestion, data quality, tester och Git. Lägg till Spark, Databricks-verktyg och deployment. |
 | [04: Business 102](../courses/04-business-102/README.md) | Indirekt stöd: välja lösning efter behov. Detaljerade metric definitions och SLA är inte egna provområden. | Direkt grund: grain och data quality requirements. Övrig requirements framing ger indirekt stöd. Lägg till implementation och monitoring. |

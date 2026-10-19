@@ -14,13 +14,14 @@ Kurserna 01-05 eller motsvarande erfarenhet. Ta med kontrollerade analysresultat
 
 ## Lärandemål
 
-Traineerna ska kunna:
+APP ska kunna:
 
 - Inleda med beslutet och rekommendationen.
 - Välja underlag och data visualizations som passar målgruppen.
 - Förklara möjlig impact utan att lova mer precision eller säkrare causality än data stöder.
 - Ange assumptions, risker, begränsningar och andra möjliga tolkningar.
 - Avsluta med en tydlig call to action, ansvarig och nästa steg.
+- Förklara residual risk och ange vem som har mandat att besluta om fortsatt användning.
 
 ## Centrala begrepp
 
@@ -32,10 +33,15 @@ Traineerna ska kunna:
 | Confidence | Data coverage, data quality, data freshness, uncertainty, correlation kontra causality |
 | Risk och assumptions | Sensitivity, operational risk, saknat underlag, reversibility |
 | Follow-up | Decision owner, nästa steg, success metric, tid för uppföljning |
+| Risk acceptance | Residual risk är risken som finns kvar efter åtgärder. Beskriv impact, alternativ, risk owner, beslutsmandat, villkor och review date. Ett riskbeslut får inte åsidosätta policy eller lagkrav. |
 
 ## Praktiskt arbete
 
 Skriv en decision brief till operations manager i [vårt gemensamma retail case](../../docs/shared-case-and-assessment.md). Använd den testade modellen för att rekommendera en åtgärd kring leveranser eller returer. Skilj observationer från hypoteser. Beskriv vilket underlag som behövs innan verksamheten gör en större investering.
+
+Förklara vilka data quality-problem som finns kvar och hur de påverkar confidence och rekommendationen.
+
+Använd er [governance brief](../../templates/governance-brief-template.md) för att visa kvarvarande risk, föreslagen åtgärd och vem som behöver fatta beslut. Genomför en rollspelsreview: dokumentera godkännande, avslag eller behov av escalation, med villkor och review date. Skilj ett faktiskt beslut i övningen från APP:s egen rekommendation.
 
 ## Bedömningsunderlag
 
@@ -44,6 +50,7 @@ Skriv en decision brief till operations manager i [vårt gemensamma retail case]
 - En bedömning av impact med tydliga assumptions. Märk uppskattningar som scenarier när underlaget är osäkert.
 - Risker, begränsningar, alternativ och en call to action.
 - Svar på granskarnas frågor, även om vad data inte kan visa.
+- Ett riskbeslut från rollspelet med ansvarig beslutsfattare, mandat, villkor och review date, eller tydlig escalation om beslut inte kan fattas.
 
 Använd [den gemensamma bedömningsmatrisen](../../docs/shared-case-and-assessment.md#bedömningsmatris). Presentationen måste stämma med tekniska specifikationer och metric definitions.
 
